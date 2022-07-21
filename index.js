@@ -73,6 +73,21 @@ function powerOf(number) {
 }
 console.log(powerOf(4));
 
+// Problem Solving
+
+function vowelCount(string) {
+    const vowels = 'aAEeIiOoUu';
+    let counter = 0;
+    for (let i = 0; i < string.length; i++) {
+
+        if (vowels.includes(string[i])) {
+            counter++;
+        }
+    }
+    return counter;
+}
+console.log(vowelCount('HELO'));
+
 // DO NOT EDIT below this line - This will result in an automatic fail
 // module.exports = {nameOfCity, isDivisible, missingAngle, isRaining, geometricalSequence, multiplesOfThree, powerOf, vowelCount};
 
