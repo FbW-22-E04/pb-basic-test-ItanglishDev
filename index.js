@@ -7,13 +7,25 @@ function nameOfCity(cityName) {
     const comparisonLetters = firstLetter + secondThreeLetters;
     // console.log(comparisonLetters);
     if (comparisonLetters == "Los" || comparisonLetters == 'New') {
-        console.log(cityName);
+        return cityName;
     } else {
-        console.log("The city name does not begin with Los or New");
+        return "The city name does not begin with Los or New";
     }
 
 }
-nameOfCity('loswaa')
+console.log(nameOfCity('loswaa'))
+
+//  EX 2
+
+function isDivisible(num) {
+    if (num % 100 == 0) {
+        return true;
+    }
+    return false;
+
+}
+
+console.log(isDivisible(110))
 
 
 
