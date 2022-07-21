@@ -65,6 +65,13 @@ function multiplesOfThree() {
 
 console.log(multiplesOfThree(3));
 
+// MATH
+// EX 1
+
+function powerOf(number) {
+    return Math.pow(number, number)
+}
+console.log(powerOf(4));
 
 // DO NOT EDIT below this line - This will result in an automatic fail
 // module.exports = {nameOfCity, isDivisible, missingAngle, isRaining, geometricalSequence, multiplesOfThree, powerOf, vowelCount};
