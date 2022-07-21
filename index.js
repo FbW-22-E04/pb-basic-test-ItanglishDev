@@ -57,10 +57,10 @@ console.log(geometricalSequence(1));
 function multiplesOfThree() {
     let counter = "";
     let counterArray = [];
-    for (let i = 1; i < 5; i++) {
+    for (let i = 1; i < 6; i++) {
         let numb = 3 * i;
         counterArray.push(numb);
-    } return counterArray.join('');
+    } return counterArray.join(' ');
 }
 
 console.log(multiplesOfThree(3));
